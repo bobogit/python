@@ -26,4 +26,4 @@ class Student2(object):
 
 s3 = Student2()
 s3.name='Bob'
-s3.score = 99	
+# s3.score = 99	# wrong
