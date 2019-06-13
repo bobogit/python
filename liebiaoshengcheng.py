@@ -9,8 +9,8 @@ print(l2)
 l3 = [m + n for m in 'ABC' for n in 'DEF']
 print(l3)
 
-import os
-print([d for d in os.listdir('.')])
+import fileAndDirection
+print([d for d in fileAndDirection.listdir('.')])
 
 d={'x':'A','y':'B','z':'C'}
 for k,v in d.items():
